@@ -8,7 +8,7 @@ import java.io.*;
 class LoxTest {
 
     @Test
-    void main() throws IOException {
+    void testMain() throws IOException {
         var args = new String[]{};
         ByteArrayInputStream b = new ByteArrayInputStream("2 + 3".getBytes());
         System.setIn(b);

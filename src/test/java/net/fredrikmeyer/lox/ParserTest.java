@@ -32,9 +32,6 @@ class ParserTest {
         tokens.add(new Token(TokenType.NUMBER, "3", null, 1));
         tokens.add(new Token(TokenType.RIGHT_PAREN, ")", null, 1));
         tokens.add(new Token(TokenType.EOF, "EOF", null, 1));
-        Parser parser = new Parser(tokens);
-
-        Expr parse = parser.parse();
 
         AstPrinter astPrinter = new AstPrinter();
 
