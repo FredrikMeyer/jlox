@@ -5,6 +5,7 @@ import java.util.List;
 import static net.fredrikmeyer.lox.TokenType.*;
 
 public class Parser {
+
     private final List<Token> tokens;
     private int current = 0;
 
@@ -58,7 +59,9 @@ public class Parser {
     }
 
     private boolean check(TokenType type) {
-        if (isAtEnd()) return false;
+        if (isAtEnd()) {
+            return false;
+        }
         return peek().type() == type;
     }
 
@@ -139,7 +142,9 @@ public class Parser {
     }
 
     private Token consume(TokenType tokenType, String message) {
-        if (check(tokenType)) return advance();
+        if (check(tokenType)) {
+            return advance();
+        }
 
         throw error(peek(), message);
     }
@@ -149,6 +154,29 @@ public class Parser {
         return new ParseError();
     }
 
+    private void synchronize() {
+        advance();
+        while (!isAtEnd()) {
+            if (previous().type() == SEMICOLON) {
+                return;
+            }
+
+            switch (peek().type()) {
+                case CLASS:
+                case FOR:
+                case FUN:
+                case IF:
+                case PRINT:
+                case RETURN:
+                case VAR:
+                case WHILE:
+                    return;
+            }
+        }
+        advance();
+    }
+
     private static class ParseError extends RuntimeException {
+
     }
 }

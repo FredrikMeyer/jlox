@@ -5,29 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84f23e7a-9545-4909-a3ed-9da6ab30cfd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/AstPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/Expr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/Lox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/Scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/TokenType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/tools/GenerateAst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/fredrikmeyer/lox/AstPrinterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/fredrikmeyer/lox/LoxTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/fredrikmeyer/lox/ParserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/fredrikmeyer/lox/ScannerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/fredrikmeyer/lox/TokenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/Interpreter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/AstPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/AstPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/Expr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/Lox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/Lox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/fredrikmeyer/lox/LoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/fredrikmeyer/lox/LoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/fredrikmeyer/lox/ParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/fredrikmeyer/lox/ParserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +24,16 @@
       <list>
         <option value="Record" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="Z8c5NXSC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -74,8 +62,11 @@
     "JUnit.ParserTest.parse.executor": "Run",
     "JUnit.ParserTest.test_parsing_parenthized_expression.executor": "Run",
     "JUnit.ScannerTest.executor": "Run",
+    "JUnit.lox in craftinglox.executor": "Run",
+    "Maven.craftinglox [package].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -86,6 +77,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
     "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
@@ -102,23 +94,7 @@
       <recent name="net.fredrikmeyer" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ParserTest.test_parsing_parenthized_expression">
-    <configuration name="AstPrinterTest.visitBinaryExpr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="craftinglox" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.fredrikmeyer.lox.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="net.fredrikmeyer.lox" />
-      <option name="MAIN_CLASS_NAME" value="net.fredrikmeyer.lox.AstPrinterTest" />
-      <option name="METHOD_NAME" value="visitBinaryExpr" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ParserTest.parse">
     <configuration name="AstPrinterTest.visit_expression_involving_grouping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="craftinglox" />
       <extension name="coverage">
@@ -135,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AstPrinterTest.visit_more_complicated_expression" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoxTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="craftinglox" />
       <extension name="coverage">
         <pattern>
@@ -144,8 +120,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="net.fredrikmeyer.lox" />
-      <option name="MAIN_CLASS_NAME" value="net.fredrikmeyer.lox.AstPrinterTest" />
-      <option name="METHOD_NAME" value="visit_more_complicated_expression" />
+      <option name="MAIN_CLASS_NAME" value="net.fredrikmeyer.lox.LoxTest" />
+      <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,20 +159,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lox in craftinglox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="craftinglox" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/net/fredrikmeyer/lox" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParserTest.parse" />
+        <item itemvalue="JUnit.lox in craftinglox" />
+        <item itemvalue="JUnit.LoxTest.main" />
         <item itemvalue="JUnit.ParserTest.test_parsing_parenthized_expression" />
         <item itemvalue="JUnit.AstPrinterTest.visit_expression_involving_grouping" />
-        <item itemvalue="JUnit.ParserTest.parse" />
-        <item itemvalue="JUnit.AstPrinterTest.visit_more_complicated_expression" />
-        <item itemvalue="JUnit.AstPrinterTest.visitBinaryExpr" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-9b16c6e2" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
       </set>
     </attachedChunks>
   </component>
@@ -214,6 +199,8 @@
       <workItem from="1707820099338" duration="2000" />
       <workItem from="1708070498669" duration="1428000" />
       <workItem from="1708518080621" duration="3985000" />
+      <workItem from="1738515493965" duration="2552000" />
+      <workItem from="1738518061379" duration="1150000" />
     </task>
     <servers />
   </component>
@@ -222,5 +209,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/net/fredrikmeyer/lox/ParserTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
