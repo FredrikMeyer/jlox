@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84f23e7a-9545-4909-a3ed-9da6ab30cfd3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/AstPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/Expr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/Lox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/Scanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/lox/TokenType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fredrikmeyer/tools/GenerateAst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/fredrikmeyer/lox/AstPrinterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/fredrikmeyer/lox/LoxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/fredrikmeyer/lox/ParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/fredrikmeyer/lox/ScannerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/fredrikmeyer/lox/TokenTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2cDojgOHCYdKcWnrChNYJlASuA3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.GenerateAst.executor": "Run",
+    "Application.net.fredrikmeyer.tools.GenerateAst.executor": "Run",
+    "JUnit.All in craftinglox.executor": "Run",
+    "JUnit.AstPrinterTest.visitBinaryExpr.executor": "Run",
+    "JUnit.AstPrinterTest.visit_expression_involving_grouping.executor": "Run",
+    "JUnit.AstPrinterTest.visit_more_complicated_expression.executor": "Run",
+    "JUnit.LoxTest.main.executor": "Run",
+    "JUnit.ParserTest.parse.executor": "Run",
+    "JUnit.ParserTest.test_parsing_parenthized_expression.executor": "Run",
+    "JUnit.ScannerTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="net.fredrikmeyer.lox" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="net.fredrikmeyer.lox" />
+      <recent name="net.fredrikmeyer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ParserTest.test_parsing_parenthized_expression">
+    <configuration name="AstPrinterTest.visitBinaryExpr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="craftinglox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.fredrikmeyer.lox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.fredrikmeyer.lox" />
+      <option name="MAIN_CLASS_NAME" value="net.fredrikmeyer.lox.AstPrinterTest" />
+      <option name="METHOD_NAME" value="visitBinaryExpr" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AstPrinterTest.visit_expression_involving_grouping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="craftinglox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.fredrikmeyer.lox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.fredrikmeyer.lox" />
+      <option name="MAIN_CLASS_NAME" value="net.fredrikmeyer.lox.AstPrinterTest" />
+      <option name="METHOD_NAME" value="visit_expression_involving_grouping" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AstPrinterTest.visit_more_complicated_expression" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="craftinglox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.fredrikmeyer.lox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.fredrikmeyer.lox" />
+      <option name="MAIN_CLASS_NAME" value="net.fredrikmeyer.lox.AstPrinterTest" />
+      <option name="METHOD_NAME" value="visit_more_complicated_expression" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParserTest.parse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="craftinglox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.fredrikmeyer.lox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.fredrikmeyer.lox" />
+      <option name="MAIN_CLASS_NAME" value="net.fredrikmeyer.lox.ParserTest" />
+      <option name="METHOD_NAME" value="parse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParserTest.test_parsing_parenthized_expression" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="craftinglox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.fredrikmeyer.lox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.fredrikmeyer.lox" />
+      <option name="MAIN_CLASS_NAME" value="net.fredrikmeyer.lox.ParserTest" />
+      <option name="METHOD_NAME" value="test_parsing_parenthized_expression" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ParserTest.test_parsing_parenthized_expression" />
+        <item itemvalue="JUnit.AstPrinterTest.visit_expression_involving_grouping" />
+        <item itemvalue="JUnit.ParserTest.parse" />
+        <item itemvalue="JUnit.AstPrinterTest.visit_more_complicated_expression" />
+        <item itemvalue="JUnit.AstPrinterTest.visitBinaryExpr" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-9b16c6e2" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84f23e7a-9545-4909-a3ed-9da6ab30cfd3" name="Changes" comment="" />
+      <created>1707655648297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707655648297</updated>
+      <workItem from="1707655649400" duration="5664000" />
+      <workItem from="1707722828407" duration="1232000" />
+      <workItem from="1707759556014" duration="1051000" />
+      <workItem from="1707820099338" duration="2000" />
+      <workItem from="1708070498669" duration="1428000" />
+      <workItem from="1708518080621" duration="3985000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
